@@ -8,9 +8,9 @@ public class Car extends Vehicle {
 		setTopSpeed(80);
 	}
 	
-	public Car(int wheels) {
+	public Car(int wheels, int topspeed) {
 		setNumberOfWheels(wheels);
-		setTopSpeed(wheels*20);
+		setTopSpeed(topspeed);
 	}
 
 	public int getNumberOfWheels() {

@@ -12,8 +12,7 @@ public class Driver {
 		brz.setTopSpeed(145);
 		
 		// make a Reliant Robin
-		Car reliant = new Car(3);
-		reliant.setTopSpeed(85);
+		Car reliant = new Car(3, 85);
 		
 		Person matt = new Person();
 		matt.setName("Matt");
