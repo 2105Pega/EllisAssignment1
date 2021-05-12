@@ -18,7 +18,7 @@ public class Driver {
 		matt.setName("Matt");
 		matt.setCar(brz);
 		
-		System.out.println("Matt's top speed is " + matt.getCar().getTopSpeed());
+		System.out.println(matt.getName() + "'s top speed is " + matt.getCar().getTopSpeed());
 	}
 
 }
